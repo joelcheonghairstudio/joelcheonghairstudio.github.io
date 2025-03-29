@@ -1,0 +1,112 @@
+html,
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+.load {
+    opacity: 100 !important;
+}
+
+/* Header */
+.header {
+    display: grid;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    padding: 0px 10px;
+    height: 8%;
+    width: inherit;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+    white-space: nowrap;
+    grid-template-columns: 100px 100px 100px 100px auto 100px;
+}
+
+.header a,
+.header div,
+.header span {
+    display: flex;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    /* min-width: 100px; */
+    color: black;
+    text-decoration: none;
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header a:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    padding: 0px 10px;
+    height: 8%;
+    width: inherit;
+    box-sizing: border-box;
+    border-top: 1px solid lightgray;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer a,
+.footer span {
+    display: flex;
+    padding: 0px 10px;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    min-width: 20px;
+    color: black;
+    text-decoration: none;
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.1s ease-out;
+}
+
+.footer a:hover {
+    filter: grayscale(100%) contrast(20%);
+    background-size: 80% auto;
+}
+
+/* Content */
+.content {
+    position: relative;
+    display: block;
+    min-height: 84%;
+}
+
+.content img {
+    display: block;
+}
+
+/* Phone screen */
+@media (max-width: 768px) {
+
+    .header {
+        grid-template-columns: 80px 80px 80px 80px auto 60px;
+    }
+
+    /* .header a, .header span {
+        min-width: 80px;
+    } */
+}
