@@ -103,13 +103,14 @@ body {
 /* Tablets (768px and below) */
 @media (max-width: 768px) {
     .header {
-        grid-template-columns: 80px 80px 80px 80px auto 60px;
+        font-size: 20px;
     }
 }
 
 /* Small Phones (480px and below) */
 @media (max-width: 480px) {
     .header {
+        font-size: 14px;
         grid-template-columns: 80px 70px 70px 70px auto 50px;
     }
 }
