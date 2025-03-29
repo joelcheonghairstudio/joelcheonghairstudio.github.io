@@ -49,12 +49,8 @@
 
 /* Small Phones (480px and below) */
 @media (max-width: 480px) {
-    .content-logo {
-        top: 5dvh;
-    }
-
     .content-intro {
-        top: 30%;
+        top: 40%;
         padding: 10px 4% 10px 4%;
         font-size: 16px;
     }
