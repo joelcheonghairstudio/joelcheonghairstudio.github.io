@@ -53,6 +53,7 @@ body {
 /* Footer */
 .footer {
     position: relative;
+    bottom: 0;
     z-index: 100;
     background-color: white;
     padding: 0px 10px;
@@ -99,14 +100,16 @@ body {
     display: block;
 }
 
-/* Phone screen */
+/* Tablets (768px and below) */
 @media (max-width: 768px) {
-
     .header {
         grid-template-columns: 80px 80px 80px 80px auto 60px;
     }
+}
 
-    /* .header a, .header span {
-        min-width: 80px;
-    } */
+/* Small Phones (480px and below) */
+@media (max-width: 480px) {
+    .header {
+        grid-template-columns: 80px 70px 70px 70px auto 50px;
+    }
 }

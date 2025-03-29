@@ -38,10 +38,23 @@
     color: rgb(0, 200, 255);
 }
 
-/* Phone screen */
+/* Tablets (768px and below) */
 @media (max-width: 768px) {
     .content-intro {
         top: 40%;
+        padding: 10px 4% 10px 4%;
+        font-size: 20px;
+    }
+}
+
+/* Small Phones (480px and below) */
+@media (max-width: 480px) {
+    .content-logo {
+        top: 5vh;
+    }
+
+    .content-intro {
+        top: 30%;
         padding: 10px 4% 10px 4%;
         font-size: 20px;
     }
