@@ -25,7 +25,7 @@
 
 .content-intro {
     /* position: absolute; */
-    padding: 10px 6% 10px 6%;
+    padding: 10px 6% 30px 6%;
     padding-top: 50dvh;
     color: white;
     text-shadow: 1px 1px 4px black, 1px 1px 4px black;
@@ -56,7 +56,7 @@
         width: 40%;
     }
     .content-intro {
-        padding: 10px 4% 10px 4%;
+        padding: 10px 4% 30px 4%;
         padding-top: 40dvh;
         font-size: 28px;
     }
@@ -69,7 +69,7 @@
         min-width: 130px;
     }
     .content-intro {
-        padding: 10px 4% 10px 4%;
+        padding: 10px 4% 30px 4%;
         padding-top: 36dvh;
         font-size: 22px;
     }
@@ -81,7 +81,7 @@
         width: 40%;
     }
     .content-intro {
-        padding: 10px 4% 10px 4%;
+        padding: 10px 4% 30px 4%;
         padding-top: 36dvh;
         font-size: 18px;
     }
@@ -97,7 +97,7 @@
         min-width: 130px;
     }
     .content-intro {
-        padding: 10px 4% 10px 4%;
+        padding: 10px 4% 30px 4%;
         padding-top: 36dvh;
         font-size: 18px;
     }
