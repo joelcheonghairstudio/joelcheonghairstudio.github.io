@@ -155,6 +155,8 @@ body {
         grid-template-columns: none;
         width: auto;
         padding: 10px 0px;
+        border-bottom: 0;
+        border-right: 1px solid lightgray;
     }
 
     .header span:first-of-type {
@@ -199,6 +201,8 @@ body {
         grid-template-columns: none;
         width: auto;
         padding: 10px 0px;
+        border-bottom: 0;
+        border-right: 1px solid lightgray;
     }
 
     .header span:first-of-type {
