@@ -1,3 +1,9 @@
+.block.intro {
+    background-image: url('/assets/img/environment1.jpg');
+    background-size: cover;
+    background-position: 60% center;
+}
+
 .content-env1 {
     position: absolute;
     top: 0;
@@ -18,9 +24,9 @@
 }
 
 .content-intro {
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
     padding: 10px 6% 10px 6%;
+    padding-top: 50dvh;
     color: white;
     text-shadow: 1px 1px 4px black, 1px 1px 4px black;
     font-size: 26px;
@@ -39,19 +45,51 @@
 }
 
 /* Tablets (768px and below) */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 481px) and (orientation: portrait) {
+    .content-logo {
+        width: 40%;
+    }
     .content-intro {
-        top: 40%;
         padding: 10px 4% 10px 4%;
+        padding-top: 40dvh;
+        font-size: 28px;
+    }
+}
+
+@media (max-height: 768px) and (min-height: 481px) and (orientation: landscape) {
+    .content-logo {
+        right: 6vw;
+        width: 10%;
+        min-width: 130px;
+    }
+    .content-intro {
+        padding: 10px 4% 10px 4%;
+        padding-top: 36dvh;
         font-size: 22px;
     }
 }
 
 /* Small Phones (480px and below) */
-@media (max-width: 480px) {
+@media (max-width: 480px) and (orientation: portrait) {
+    .content-logo {
+        width: 40%;
+    }
     .content-intro {
-        top: 40%;
         padding: 10px 4% 10px 4%;
+        padding-top: 40dvh;
         font-size: 16px;
+    }
+}
+
+@media (max-height: 480px) and (orientation: landscape) {
+    .content-logo {
+        right: 6vw;
+        width: 10%;
+        min-width: 130px;
+    }
+    .content-intro {
+        padding: 10px 4% 10px 4%;
+        padding-top: 36dvh;
+        font-size: 18px;
     }
 }
