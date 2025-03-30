@@ -44,6 +44,12 @@
     color: rgb(0, 200, 255);
 }
 
+.content-intro span:first-of-type {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 /* Tablets (768px and below) */
 @media (max-width: 768px) and (min-width: 481px) and (orientation: portrait) {
     .content-logo {
@@ -79,6 +85,9 @@
         padding-top: 36dvh;
         font-size: 18px;
     }
+    .content-intro span:first-of-type {
+        font-size: 30px;
+    }
 }
 
 @media (max-height: 480px) and (orientation: landscape) {
@@ -91,5 +100,8 @@
         padding: 10px 4% 10px 4%;
         padding-top: 36dvh;
         font-size: 18px;
+    }
+    .content-intro span:first-of-type {
+        font-size: 30px;
     }
 }
