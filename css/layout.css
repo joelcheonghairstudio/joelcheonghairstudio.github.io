@@ -174,10 +174,6 @@ body {
         grid-template-columns: 80px 70px 70px 70px auto 50px;
     }
 
-    .content-intro {
-        font-size: 20px;
-    }
-
     .footer {
         font-size: 14px;
     }
