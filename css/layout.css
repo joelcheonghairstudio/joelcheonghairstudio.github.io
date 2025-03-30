@@ -145,8 +145,8 @@ body {
         grid-template-areas:
             "header content"
             "none footer";
-        grid-template-rows: auto 12%;
-        grid-template-columns: 11% 89%;
+        grid-template-rows: auto 12dvh;
+        grid-template-columns: 11dvw 89dvw;
     }
 
     .header {
@@ -189,8 +189,8 @@ body {
         grid-template-areas:
             "header content"
             "none footer";
-        grid-template-rows: auto 12%;
-        grid-template-columns: 11% 89%;
+        grid-template-rows: auto 12dvh;
+        grid-template-columns: 11dvw 89dvw;
     }
 
     .header {
