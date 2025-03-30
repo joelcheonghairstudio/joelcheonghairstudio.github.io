@@ -1,0 +1,52 @@
+.contact {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+.map {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.map a.whatsapp {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgreen;
+    mask-image: url('/assets/img/whatsapp.png');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    margin-left: 5px;
+    height: 31px;
+    width: 31px;
+}
+
+.map span {
+    display: block;
+}
+
+.map span.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.map iframe {
+    border: 15px solid #cdf9f9;
+    border-radius: 0 50px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+    width: 60dvw;
+    height: 60dvh;
+}
+
+.map-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('/assets/img/environment2.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: blur(10px);
+    z-index: -1;
+}
